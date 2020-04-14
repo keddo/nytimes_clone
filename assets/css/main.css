@@ -161,7 +161,7 @@ table {
 
 #container .nav .left-side a.space {
   padding: 10px 0;
-  font-size: 14.52px;
+  font-size: 15px;
   text-transform: uppercase;
   letter-spacing: 0.9;
   font-weight: 700;
@@ -187,4 +187,36 @@ table {
   line-height: 11px;
   font-weight: 700;
   vertical-align: middle;
+}
+
+/* Main content */
+
+#container .content {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.content .hero {
+  grid-column: 2/6;
+}
+
+.content .hero h1 {
+  width: 70%;
+  font-size: 2.5em;
+  font-weight: 700;
+  letter-spacing: 2.5;
+  text-align: left;
+  align-content: center;
+  padding: 30px 10px;
+}
+
+.content .hero .caption {
+  width: 100%;
+  font-size: 0.85em;
+  padding: 10px;
+}
+
+.content .hero #caption-p {
+  width: 500px;
+  text-align: left;
 }
