@@ -193,11 +193,11 @@ table {
 
 #container .content {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(8, 1fr);
 }
 
 .content .hero {
-  grid-column: 2/6;
+  grid-column: 2/8;
 }
 
 .content .hero h1 {
@@ -208,15 +208,21 @@ table {
   text-align: left;
   align-content: center;
   padding: 30px 10px;
+  margin: 0 auto;
 }
 
 .content .hero .caption {
   width: 100%;
   font-size: 0.85em;
   padding: 10px;
+  color: #666;
 }
 
 .content .hero #caption-p {
-  width: 500px;
+  width: 850px;
   text-align: left;
+  font-size: 16px;
+}
+.caption p small{
+  color: #888;
 }
