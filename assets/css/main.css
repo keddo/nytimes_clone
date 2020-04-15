@@ -231,6 +231,7 @@ table {
   width: 90%;
   margin: 20px auto;
 }
+
 section.publish-info{
   display: flex;
   flex-direction: column;
@@ -326,6 +327,11 @@ article p strong {
   grid-row: 4;
 
 }
+
+.inflation-body .inflation-group span {
+   font-weight: 600;
+}
+
 .inflation-footer p::before {
   content: "";
   height: 1px;
@@ -338,3 +344,10 @@ article p strong {
   
 }
 
+.inflation .inflation-footer {
+  margin: 50px 10px;
+}
+
+.inflation-body .inflation-group span {
+  font-weight: 600px;
+}
