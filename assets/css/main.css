@@ -304,7 +304,46 @@ article p strong {
 }
 
 
-
+.editor-prick
+{
+  margin-left: 3rem;
+  grid-column: 7/9;
+  position: relative;
+top: -1900px;
+vertical-align: center;
+align-items: center;
+}
+.editor-prick h4{
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(226, 226, 226);
+  width: 70%;
+}
+.editor-price-group{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  
+ 
+}
+.editor-price-group img{
+  width: 75px;
+  height: 75px;
+  object-fit: contain;
+  padding-right: 0.5rem;
+  
+}
+.editor-price-group a{
+  color: #000;
+  width: 45%;
+  text-decoration: none;
+}
+.editor-price-group a:hover{
+text-decoration: underline;
+}
 .inflation-body .inflation-footer {
   grid-column: 1/3;
 }
