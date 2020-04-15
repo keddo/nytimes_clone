@@ -287,3 +287,35 @@ article p strong {
   font-size: 1.3rem;
   font-weight: 700;
 }
+
+.content .inflation {
+  grid-column: 2/8;
+}
+
+.inflation .inflation-body {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 140px);
+  background: url(../img/inflation-945.png) no-repeat center center/cover;
+}
+
+/*.inflation-body img {
+
+  grid-column: 1/5;
+}*/
+
+.inflation-body .inflation-footer {
+  grid-column: 1/3;
+}
+
+.inflation-body .inflation-group{
+  position: relative;
+}
+
+.inflation-body .top {
+  bottom: 450px;
+}
+.inflation-body .bottom {
+  bottom: 290px;
+}
+
