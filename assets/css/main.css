@@ -297,12 +297,16 @@ article p strong {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 140px);
   background: url(../img/inflation-945.png) no-repeat center center/cover;
+  grid-gap: 20px;
+  margin-top: 30px;
+  
 }
 
 /*.inflation-body img {
 
   grid-column: 1/5;
 }*/
+
 
 .inflation-body .inflation-footer {
   grid-column: 1/3;
@@ -313,9 +317,23 @@ article p strong {
 }
 
 .inflation-body .top {
-  bottom: 450px;
+ 
+  grid-row: 2;
 }
 .inflation-body .bottom {
-  bottom: 290px;
+  
+  grid-row: 4;
+
+}
+.inflation-footer p::before {
+  content: "";
+  height: 1px;
+  width: 60px;
+  background-color: #000;
+  border-top: 1px solid black;
+  z-index: 222;
+  display: block;
+  margin-bottom: 10px ;
+  
 }
 
