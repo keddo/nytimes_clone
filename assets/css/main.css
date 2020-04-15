@@ -238,6 +238,7 @@ section.publish-info{
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
+   
 }
 .publish-info .publish-name,
 .publish-info .publisher-name a {
@@ -254,16 +255,20 @@ time.publish-date {
   font-style: italic;
   font-size: 0.9rem;
 }
-
+.publish-info .icon-group{
+  width: 40%;
+}
 .publish-info .icon-group span {
   margin-right: 15px;
   padding: 5px;
-  height: 15px;
-  width: 60px;
+  text-align: center;
   border-radius: 100%;
   background-color: #eee;
 }
 .publish-info .icon-group span:hover {
   background-color: #fff;
   border: 1px solid #888;
+}
+.article-container p{
+  
 }
