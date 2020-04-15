@@ -302,10 +302,6 @@ article p strong {
   
 }
 
-/*.inflation-body img {
-
-  grid-column: 1/5;
-}*/
 
 
 .inflation-body .inflation-footer {
@@ -314,6 +310,11 @@ article p strong {
 
 .inflation-body .inflation-group{
   position: relative;
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 300;
+  color: #000;
 }
 
 .inflation-body .top {
