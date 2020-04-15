@@ -226,3 +226,44 @@ table {
 .caption p small{
   color: #888;
 }
+.article-container{
+  grid-column: 3/7;
+}
+section.publish-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.article-container .social-media-reaction {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.publish-info .publish-name,
+.publish-info .publisher-name a {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: 700;
+}
+
+.publish-info .publisher-name a:hover {
+  text-decoration: none;
+}
+time.publish-date {
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+.publish-info .icon-group span {
+  margin-right: 15px;
+  padding: 5px;
+  height: 15px;
+  width: 60px;
+  border-radius: 100%;
+  background-color: #eee;
+}
+.publish-info .icon-group span:hover {
+  background-color: #fff;
+  border: 1px solid #888;
+}
