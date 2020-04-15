@@ -110,7 +110,7 @@ section {
 
 body {
   line-height: 1;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
 
 ol,
@@ -228,6 +228,8 @@ table {
 }
 .article-container{
   grid-column: 3/7;
+  width: 90%;
+  margin: 20px auto;
 }
 section.publish-info{
   display: flex;
@@ -271,4 +273,17 @@ time.publish-date {
 }
 .article-container p{
   
+}
+
+article p {
+  font-family: "Times New Romance";
+  padding: 12px 0;
+  font-size: 1.3rem;
+  line-height: 25px;
+  letter-spacing: 0.5;
+}
+
+article p strong {
+  font-size: 1.3rem;
+  font-weight: 700;
 }
