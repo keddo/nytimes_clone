@@ -175,7 +175,7 @@ table {
   text-decoration: underline;
 }
 
-#container .nav .middle-logo {
+ .ny-logo {
   height: 26px;
   width: 195px;
 }
@@ -527,23 +527,52 @@ div.btn-group .icon-group {
   align-self: center;
 }
 .footer {
-  display: grid;
-
-}
-
-.footer .astronomy,.footer .footer-nav , .footer .b-footer{
-  
-  grid-template-columns: 70% 25%;
   width: 90%;
-  grid-gap: 20px;
+  margin: 0 auto;
 }
-.footer .astronomy .img-group{
-    grid-column: 2/8;
-    
-  }
+
+.footer .footer-nav,
+.footer .astronomy {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 75% 25%;
+}
+
+.footer .astronomy .img-group {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.footer .astronomy .img-group .editor-prick-headline,
+.footer .astronomy .img-group .space-astronomy-text {
+  grid-column: 1/4;
+}
 .footer .astronomy .img-group img{
   width: 272px;
   height: 182px;
+}
+
+.footer .footer-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .footer-nav .bottom-logo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .footer-nav .nav-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .b-footer {
+  width: 88%;
+  margin: 0 auto;
+  display: flex;
+}
+.footer .b-footer ul li {
+  display: inline;
 }
 /* svg styles */
 .css-r5ic95 {
