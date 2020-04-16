@@ -344,20 +344,20 @@ article p strong {
   border-bottom: 1px solid rgb(226, 226, 226);
   width: 65%;
 }
-.editor-price-group{
+.editor-prick-group{
   display: flex;
   align-items: center;
   margin-bottom: 1rem;
   font-size: 0.9rem;
 }
-.editor-price-group img{
+.editor-prick-group img{
   width: 75px;
   height: 75px;
   object-fit: contain;
   padding-right: 0.6rem;
   
 }
-.editor-price-group a {
+.editor-prick-group a {
   width: 45%;
   font-family: nyt-cheltenham-small, georgia, "times new roman";
   color: rgb(51, 51, 51);
@@ -365,7 +365,7 @@ article p strong {
   line-height: 17px;
   text-decoration: none;
 }
-.editor-price-group a:hover{
+.editor-prick-group a:hover{
 text-decoration: underline;
 }
 
@@ -526,7 +526,25 @@ div.btn-group button {
 div.btn-group .icon-group {
   align-self: center;
 }
+.footer {
+  display: grid;
 
+}
+
+.footer .astronomy,.footer .footer-nav , .footer .b-footer{
+  
+  grid-template-columns: 70% 25%;
+  width: 90%;
+  grid-gap: 20px;
+}
+.footer .astronomy .img-group{
+    grid-column: 2/8;
+    
+  }
+.footer .astronomy .img-group img{
+  width: 272px;
+  height: 182px;
+}
 /* svg styles */
 .css-r5ic95 {
   height: 13px;
