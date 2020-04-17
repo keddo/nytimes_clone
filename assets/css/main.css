@@ -2,6 +2,7 @@
 
 #container {
   width: 100%;
+  overflow: hidden;
 }
 
 /* Main Nav */
@@ -209,6 +210,7 @@ footer .space-astronomy-text h2 a {
   line-height: 11px;
   font-weight: 700;
   vertical-align: middle;
+  cursor: pointer;
 }
 
 /* Main content */
@@ -538,11 +540,10 @@ div.btn-group .icon-group {
 }
 
 .footer .footer-nav {
-  width: 95%;
   display: flex;
   flex-direction: column;
   border-top: 1px solid rgb(226, 226, 226);
-  padding: 15px 40px 9px 40px;
+  padding: 15px 0 9px 0;
 }
 
 .footer .astronomy .img-group {
