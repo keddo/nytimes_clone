@@ -1,6 +1,10 @@
-# HTML Forms | Mint Clone
+# Positioning and Floating Elements | Nytimes Clone
 
-> This project consists of building an HTML document that matches the appearance of mint.com’s signup page.
+> This assignment consists of making a clone of a New York Times article page. By this point, It helps as to be familiar with the concepts of:
+   - Embedding images
+   - Working with forms (buttons in this case)
+   - Floats and positioning
+   - The box mode
 
 ![screenshot](./app_screenshot.png)
 
@@ -33,6 +37,11 @@ To get a local copy up and running follow these simple example steps.
 👤 **Kedir**
 
 - Github: [@keddo](https://github.com/keddo)
+## 🤝 Contributing
+
+👤 **Asghar beyk **
+
+- Github: [@beyk](https://github.com/beyk)
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
