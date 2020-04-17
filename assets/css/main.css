@@ -562,12 +562,12 @@ div.btn-group .icon-group {
   grid-column: 1/4;
 }
 .footer .astronomy .img-group img{
-  width: 100%;
+  flex-basis: 100%;
   height: 182px;
 }
 
 .footer .footer-nav {
-  width: 93.5%;
+  flex-basis: 93.5%;
   display: flex;
   flex-direction: column;
   padding: 15px 40px 9px 40px;
@@ -584,7 +584,7 @@ div.btn-group .icon-group {
 }
 
 .footer .b-footer {
-  width: 95%;
+  flex-basis: 95%;
   display: flex;
   padding: 9px 30px 45px 30px;
   border-top: 1px solid rgb(226, 226, 266);
@@ -744,7 +744,7 @@ div.btn-group .icon-group {
     display: inline-block;
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     text-transform: capitalize;
-    width: 150px;
+    flex-basis: 150px;
     font-size: 13px;
     font-weight: 500;
     height: 23px;
@@ -808,7 +808,7 @@ div.btn-group .icon-group {
 /* covid-19 */
 
 .fixed-footer {
-  width: 100%;
+  flex-basis: 100%;
   height: 55px;
   position: fixed;
   bottom: 0;
