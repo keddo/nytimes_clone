@@ -1,6 +1,6 @@
 # Positioning and Floating Elements | Nytimes Clone
 
-> This assignment consists of making a clone of a New York Times article page. By this point, It helps as to be familiar with the concepts of:
+> This Project consists of making a clone of a New York Times article page. By this point, It helps as to be familiar with the concepts of:
    - Embedding images
    - Working with forms (buttons in this case)
    - Floats and positioning
@@ -37,6 +37,7 @@ To get a local copy up and running follow these simple example steps.
 👤 **Kedir**
 
 - Github: [@keddo](https://github.com/keddo)
+- Twitter: [@kedirman](https://twitter.com/kedirman)
 ## 🤝 Contributing
 
 👤 **Asghar beyk **
