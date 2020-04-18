@@ -17,7 +17,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link]( https://radiant-reef-32776.herokuapp.com/)
+[Go Live Demo](https://arcane-mountain-71548.herokuapp.com/)
 
 
 ## Getting Started
